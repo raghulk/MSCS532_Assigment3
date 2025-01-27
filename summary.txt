@@ -1,0 +1,14 @@
+Through theoretical and empirical analysis, we conclude:
+1.	Randomized Quicksort:
+  • Provides better average-case performance than deterministic Quicksort.
+  • Handles edge cases (sorted/reverse-sorted) better.
+  • Slightly higher overhead due to random pivot selection.
+2.	Hashing with Chaining:
+  • Efficient under low load factors but slows with high element count.
+  • Effective collision handling with chaining.
+  • Load factor management is crucial for maintaining efficiency.
+
+Key Takeaways:
+  • Choosing the right algorithm depends on input characteristics and expected performance trade-offs.
+  • Randomization techniques can provide robust solutions in sorting.
+  • Hash table efficiency heavily relies on collision handling and resizing strategies.
